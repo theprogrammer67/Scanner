@@ -23,7 +23,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:onClick="startScan"
                 android:text="Сканировать штрихкод" />
+
+            <Button
+                android:id="@+id/btnScanOnce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="startScanOnce"
+                android:text="Сканировать штрихкод 1 раз" />
 
         </LinearLayout>
     </LinearLayout>
